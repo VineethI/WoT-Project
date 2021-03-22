@@ -3,30 +3,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 25%;
-  padding: 5%;
+  height: 60vh;
 
   .registerHeader {
       font-size: 1.3em;
   }
 
   .email {
-    margin: 1%;
-    padding: 5px 10px;
+    margin: 5%;
     width: 30vw;
     height: 3.5vh;
     border-radius: 5px;
-    border-color: black;
   }
 
   .password {
-    margin: 1%;
-    padding: 5px 10px;
+    margin: 5%;
     width: 30vw;
     height: 3.5vh;
     border-radius: 5px;
-    border-color: black;
   }
 
   .regButtons {
@@ -50,10 +46,27 @@
       width: 30vw;
       border-radius: 5px;
       border: none;
+      font-weight: 600;
       font-size: 0.8em;
-      background-color: white;
       padding: 7.5px 12.5px;
       cursor: pointer;
     }
   }
 }
+
+.regCard {
+  height: 50vh;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.regCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+
