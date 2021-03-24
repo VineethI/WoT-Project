@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://wotproject:emdtopic@cluster0.xkay1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "wot_jwtSecret"
+}

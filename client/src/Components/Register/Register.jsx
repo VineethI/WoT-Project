@@ -13,6 +13,7 @@ const Register = () => {
       <Card  className="regCard">
         <CardContent className="regCardContent">
           <h3 className="registerHeader">Register to check the Readings</h3>
+          <TextField className="email" id="outlined-basic" label="Name" variant="outlined"/>
           <TextField className="email" id="outlined-basic" label="Email" variant="outlined"/>
           <TextField className="password" id="outlined-basic" type="password" label="Password" variant="outlined"/>
           <CardActions className="regCardActions">
