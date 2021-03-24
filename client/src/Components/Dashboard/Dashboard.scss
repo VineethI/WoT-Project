@@ -1,5 +1,5 @@
 .dashboard {
-  height: 96vh;
+  height: 90vh;
   width: 95vw;
   margin: 1.5vh;
   margin-left: 4vh;
@@ -146,4 +146,18 @@ h2 {
       font-size: 1.1em;
       font-weight: 600;
   }
+}
+
+.appBar {
+  margin-bottom: 2vh;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logOut {
+  position: relative;
 }
